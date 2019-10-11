@@ -13,7 +13,7 @@ The following instructions will help you to get ready for [AI Saturdays](http://
 
 Have you signed up to GitHub? If not, [do it right away](https://github.com/join).
 
-:point_right: **[Upload a picture](https://github.com/settings/profile)** and put your name correctly on your GitHub account. This is important as we'll use an internal dashboard with your avatars. Please do it **now**.
+:point_right: **[Upload a picture](https://github.com/settings/profile)** and put your name correctly on your GitHub account. This is important for several reasons 1) employability and 2)in case we use an internal dashboard with your avatars. Please do it **now**.
 
 
 ## Git
@@ -31,7 +31,7 @@ sudo apt install -y git
 
 ## Sublime Text 3 - Your text editor
 
-A text editor is one of the most important tools of a developer.
+A text editor is one of the most important tools of a developer. This doesn't necessarly have to be yours, since you can pick between this, and IDE and something on the web like Jupyter notebooks. Nevertheless, great asset to have installed just in case. u
 Follow these instructions in the Terminal:
 
 ```bash
