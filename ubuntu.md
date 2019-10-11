@@ -104,8 +104,8 @@ then go to [github.com/settings/ssh](https://github.com/settings/ssh). Click on
 **Add SSH key**, fill in the Title with your computer name, and paste the **Key**.
 Finish by clicking on the **Add key** green button.
 
-To check that this step is completed, in the terminal run this. You will be
-prompted a warning, type `yes` then `Enter`.
+To check that this step is completed, in the terminal run this. **You will be
+prompted a warning**, type `yes` then `Enter`.
 
 ```bash
 ssh -T git@github.com
@@ -123,8 +123,7 @@ If it does not work, try running this before trying again the `ssh -T` command:
 ssh-add ~/.ssh/id_ed25519
 ```
 
-Don't be in a rush, take time to [read this article](https://developer.github.com/v3/guides/managing-deploy-keys/) to get a better
-understanding of what those keys are used for.
+Don't be in a rush, take time to [read this article](https://developer.github.com/v3/guides/managing-deploy-keys/) to get a better understanding of what those keys are used for or follow [this tutorial](https://help.github.com/en/articles/connecting-to-github-with-ssh) for a more detailed step-by-step guide. 
 
 
 ## Slack
