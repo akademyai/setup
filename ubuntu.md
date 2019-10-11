@@ -72,6 +72,20 @@ To make this change stick, restart your laptop (or virtual machine):
 sudo reboot
 ```
 
+Once the installation is done, you can verify the Zsh version by running the following command;
+
+```zsh --version
+zsh 5.4.2 (x86_64-ubuntu-linux-gnu)
+```
+
+## Configure Zsh
+
+Now that Zsh in installed, make it your default shell by running the command below;
+
+```
+chsh -s $(which zsh)
+```
+This will the default shell for the current user. If run sudo `chsh -s $(which zsh)` it will change the default shell for root.
 
 ## GitHub
 
