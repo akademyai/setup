@@ -1,12 +1,11 @@
 # Setup instructions
 
-The following instructions will help you to get ready for [AI Saturdays](http://www.saturdays.ai) intense weekends!
+The following instructions will help you to get ready for [Akademy.ai](http://www.akademy.ai) 10 intense weeks!
 - Grab a decent text editor- Install a package manager
 - Pimp your Terminal
 - Setup git and GitHub
 - Install Anaconda
 - Install Jupyter Notebooks
-- Connect to fast.ai via gcollab or the method of choice
 
 
 ## GitHub account
