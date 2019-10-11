@@ -131,9 +131,9 @@ understanding of what those keys are used for.
 
 [Install Slack for Linux (beta)](https://get.slack.help/hc/en-us/articles/212924728-Slack-for-Linux-beta-).
 
-Launch the app and sign in to `aisaturdays-hispano` organization.
+Launch the app and sign in to `akademyai.slack.com` organization.
 
-Make sure you upload a picture there.
+Make sure you upload a picture there as well.
 
 You can also sign in to Slack on your iPhone or Android device!
 
