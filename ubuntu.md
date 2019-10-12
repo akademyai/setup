@@ -86,6 +86,34 @@ Now that Zsh in installed, make it your default shell by running the command bel
 chsh -s $(which zsh)
 ```
 This will the default shell for the current user. If run sudo `chsh -s $(which zsh)` it will change the default shell for root.
+If this doesn't work, **let us know** and we will come sort it out manually :)
+
+### Syntax Highlighting
+You want Zsh syntax highlighting. It will tell you if your command is valid even before you run it. It’s handy.
+
+To enable syntax highlighting, run
+```
+cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.gitecho "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+```
+
+and then enable it by running
+```
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+Restart your terminal for your changes to take effect.
+
+### Add ZSH-AutoSuggestion Plugin
+
+This plugin auto suggests any of the previous commands. Pretty handy! **To select the completion, simply press → key.**
+
+1.     Install the plugin
+`git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
+
+2. Open `~/.zshrc` and add zsh-autosuggestions in the plugins section
+
+### Sublime text
+
+By adding sublime to the plugin list, you will be able to launch it with a simple `stt` command in the terminal
 
 ## GitHub
 
