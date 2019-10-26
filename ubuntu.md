@@ -93,13 +93,19 @@ You want Zsh syntax highlighting. It will tell you if your command is valid even
 
 To enable syntax highlighting, run
 ```
-cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.gitecho "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+cd ~/.oh-my-zsh 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
-
 and then enable it by running
 ```
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
+If `git` is not installed, download and extract a snapshot of the latest development tree from:
+```
+https://github.com/zsh-users/zsh-syntax-highlighting/archive/master.tar.gz
+```
+
 Restart your terminal for your changes to take effect.
 
 ### Add ZSH-AutoSuggestion Plugin
@@ -109,7 +115,7 @@ This plugin auto suggests any of the previous commands. Pretty handy! **To selec
 1.     Install the plugin
 `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
 
-2. Open `~/.zshrc` and add zsh-autosuggestions in the plugins section
+2. Open `~/.zshrc` and add `zsh-autosuggestions` in the plugins section
 
 ### Sublime text
 
