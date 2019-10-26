@@ -117,6 +117,11 @@ This plugin auto suggests any of the previous commands. Pretty handy! **To selec
 
 2. Open `~/.zshrc` and add `zsh-autosuggestions` in the plugins section
 
+3. and then enable it by running
+```
+source ~/.zshrc
+```
+
 ### Sublime text
 
 By adding sublime to the plugin list, you will be able to launch it with a simple `stt` command in the terminal
